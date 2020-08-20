@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header> 
+<h1> FORMS</h1>
+</header>
+<div class="contact-form">
+<h1>Contact</h1>
+
+  <form method="post" action="contact.php">
+	<div class="form-item">Name</div>
+	<input type="text" name="name" placeholder="Full name"><br><br>
+	<input type="text" name="mail" placeholder="Your E-mail"><br><br>
+
+	<div class="form-item">Class</div>
+	<select name="subject">
+		<option value="unselected">Select your class</option>
+	<option> 6th</option>
+	<option> 7th</option>
+	<option> 8th</option>
+	<option> 9th</option>
+	<option> 10th</option>
+	<option> 11th</option>
+	<option> 12th</option>
+    </select>
+<br><br>
+    <div class="form-item">Message</div>
+    <textarea name="message" placeholder="Message"></textarea><br><br>
+
+    <input type="submit" value="Send Mail" name="submit">
+
+		
+	</form>
+</div>
+</div>
+
+</body>
+</html> 
